@@ -23,4 +23,5 @@ void Map::draw(RenderWindow& window) {
 			window.draw(mapSprite);
 		}
 	}
+	window.draw(player.getSprite());
 }
