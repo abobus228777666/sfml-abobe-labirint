@@ -21,6 +21,6 @@ void Engine::loop() {
 
 void Engine::draw() {
 	window.clear(Color(0, 255, 0));
-	window.draw(player.getSprite());
+	map.draw(window);
 	window.display();
 }

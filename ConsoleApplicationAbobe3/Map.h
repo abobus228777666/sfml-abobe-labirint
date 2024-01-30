@@ -1,5 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include "Player.h"
 
 using namespace sf;
 
@@ -12,5 +13,39 @@ class Map {
 public:
 	Map();
 	void draw(RenderWindow& window);
+private:
+	Image mapImage;
+	Texture mapTexture;
+	Sprite mapSprite;
+	void init();
+	Player player;
+
+	String TileMap[HEIGHT_MAP] = {
+
+"sssssssssssssssssssss",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sgggggggggggggggggggs",
+
+"sssssssssssssssssssss"
+
+	};
 
 };

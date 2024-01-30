@@ -130,6 +130,7 @@
     <ClCompile Include="ConsoleApplicationAbobe3.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Engine.h" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,4 @@
-﻿  ConsoleApplicationAbobe3.cpp
-  Engine.cpp
-  Engine.h
-  Player.cpp
-  Создание кода...
-x64\Debug\Engine.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+﻿  Map.cpp
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\Map.cpp(22,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\Map.cpp(22,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
   ConsoleApplicationAbobe3.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\x64\Debug\ConsoleApplicationAbobe3.exe

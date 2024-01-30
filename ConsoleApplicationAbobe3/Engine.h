@@ -1,7 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "Player.h"
+#include "Map.h"
 
 using namespace sf;
 using namespace std;
@@ -12,7 +12,6 @@ public:
 	Engine();
 	void init();
 	void loop();
-	Player player;
 	void draw();
-	
+	Map map;
 };
