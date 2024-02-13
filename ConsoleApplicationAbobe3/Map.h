@@ -13,13 +13,14 @@ class Map {
 public:
 	Map();
 	void draw(RenderWindow& window);
+	Player* player;
+	Player* getPlayer();
+	void update();
 private:
 	Image mapImage;
 	Texture mapTexture;
 	Sprite mapSprite;
 	void init();
-	Player player;
-
 	String TileMap[HEIGHT_MAP] = {
 
 "sssssssssssssssssssss",

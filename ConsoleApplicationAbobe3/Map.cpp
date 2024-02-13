@@ -8,6 +8,7 @@ void Map::init() {
 
 Map::Map(){
 	init();
+	player = new Player();
 }
 
 void Map::draw(RenderWindow& window) {
@@ -23,5 +24,13 @@ void Map::draw(RenderWindow& window) {
 			window.draw(mapSprite);
 		}
 	}
-	window.draw(player.getSprite());
+	window.draw(player->getSprite());
+}
+
+void Map::update() {
+	player->update();
+}
+
+Player* Map::getPlayer() {
+	return player;
 }

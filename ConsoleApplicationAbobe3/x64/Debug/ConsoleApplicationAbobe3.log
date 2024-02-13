@@ -1,4 +1,26 @@
-﻿  Map.cpp
-C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\Map.cpp(22,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\Map.cpp(22,28): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-  ConsoleApplicationAbobe3.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\x64\Debug\ConsoleApplicationAbobe3.exe
+﻿  KeyPressAction.cpp
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(16,29): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(16,29): warning C4305:         with
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(16,29): warning C4305:         [
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(16,29): warning C4305:             T=float
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(16,29): warning C4305:         ]
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(23,30): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(23,30): warning C4305:         with
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(23,30): warning C4305:         [
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(23,30): warning C4305:             T=float
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(23,30): warning C4305:         ]
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(31,32): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(31,32): warning C4305:         with
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(31,32): warning C4305:         [
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(31,32): warning C4305:             T=float
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(31,32): warning C4305:         ]
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(35,33): warning C4305: аргумент: усечение из "double" в "T"
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(35,33): warning C4305:         with
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(35,33): warning C4305:         [
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(35,33): warning C4305:             T=float
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(35,33): warning C4305:         ]
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\ConsoleApplicationAbobe3\KeyPressAction.cpp(42,46): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+x64\Debug\Engine.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+ConsoleApplicationAbobe3.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ) в функции main.
+ConsoleApplicationAbobe3.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Engine::loop(void)" (?loop@Engine@@QEAAXXZ) в функции main.
+C:\Users\Admin\source\repos\ConsoleApplicationAbobe3\x64\Debug\ConsoleApplicationAbobe3.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

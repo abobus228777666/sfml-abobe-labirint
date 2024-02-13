@@ -8,7 +8,7 @@ void Player::init() {
 	texture.loadFromImage(image);
 	sprite.setTexture(texture);
 	setTextureRect(IntRect(0, 0, 80, 120));
-	setPosition(Vector2f(0, 0));
+	setPosition(Vector2f(100, 100));
 }
 
 Vector2f Player::getPosition() {
@@ -28,3 +28,15 @@ void Player::setTextureRect(IntRect rect) {
 	sprite.setTextureRect(rect);
 }
 
+void Player::setSpeed(Vector2f speed) {
+	this->speed = speed;
+}
+
+Vector2f Player::getSpeed() {
+	return speed;
+}
+
+void Player::update() {
+	sprite.move(speed.x, speed.y);
+	position = sprite.getPosition();
+}

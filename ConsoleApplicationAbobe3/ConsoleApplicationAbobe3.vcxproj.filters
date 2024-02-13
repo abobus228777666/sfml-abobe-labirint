@@ -30,6 +30,9 @@
     <ClCompile Include="Map.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="KeyPressAction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -40,6 +43,9 @@
     </ClInclude>
     <ClInclude Include="Map.h">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPressAction.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

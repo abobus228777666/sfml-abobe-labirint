@@ -1,11 +1,15 @@
 #include "Engine.h"
+
 Engine::Engine() {
 	init();
 }
 
 void Engine::init() {
 	window.create(sf::VideoMode(1260, 720), "Game");
+	pressAction.setPlayer(map.getPlayer());
 }
+
+
 
 void Engine::loop() {
 	while (window.isOpen()) {
@@ -16,6 +20,7 @@ void Engine::loop() {
 			}
 		}
 		draw();
+		update();
 	}
 }
 
@@ -23,4 +28,9 @@ void Engine::draw() {
 	window.clear(Color(0, 255, 0));
 	map.draw(window);
 	window.display();
+}
+
+void Engine::update() {
+	pressAction.action();
+	map.update();
 }
