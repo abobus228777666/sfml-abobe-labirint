@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="ConsoleApplicationAbobe3.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Engine.h" />
@@ -138,6 +139,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="KeyPressAction.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Player.h" />

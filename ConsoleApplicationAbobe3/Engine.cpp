@@ -7,6 +7,7 @@ Engine::Engine() {
 void Engine::init() {
 	window.create(sf::VideoMode(1260, 720), "Game");
 	pressAction.setPlayer(map.getPlayer());
+	camera = new Camera(map.getPlayer());
 }
 
 
@@ -26,6 +27,7 @@ void Engine::loop() {
 
 void Engine::draw() {
 	window.clear(Color(0, 255, 0));
+	window.setView(camera->getView());
 	map.draw(window);
 	window.display();
 }
@@ -33,4 +35,5 @@ void Engine::draw() {
 void Engine::update() {
 	pressAction.action();
 	map.update();
+	camera->update();
 }

@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Map.h"
 #include "KeyPressAction.h"
+#include "Camera.h"
 
 using namespace sf;
 using namespace std;
@@ -17,4 +18,5 @@ public:
 	void update();
 	KeyPressAction pressAction;
 	Map map;
+	Camera* camera;
 };
